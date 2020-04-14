@@ -1,4 +1,4 @@
-
+<a href="https://ibb.co/NyNmcs3"><img src="https://i.ibb.co/Tg0b9kT/yoco.png" alt="yoco" border="0"></a>
 
 yotokens Core integration/staging repository
 =====================================
@@ -56,5 +56,3 @@ Yotokens is a cutting edge cryptocurrency, with many features not available in m
 <br>
 <br>
 
-<p align="center">For more information<br>
-https://www.elitium.io</p>
