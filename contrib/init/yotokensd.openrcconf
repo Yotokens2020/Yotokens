@@ -1,0 +1,26 @@
+# /etc/conf.d/yotokensd: config file for /etc/init.d/yotokensd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/yotokens/yotokens.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/yotokensd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/yotokensd.pid"
+
+# Where to write yotokensd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/yotokensd"
+
+# User and group to own yotokensd process
+#BITCOIND_USER="yotokens"
+#BITCOIND_GROUP="yotokens"
+
+# Path to yotokensd executable
+#BITCOIND_BIN="/usr/bin/yotokensd"
+
+# Nice value to run yotokensd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

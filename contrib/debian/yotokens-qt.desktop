@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=yotokens
+Comment=yotokens P2P Cryptocurrency
+Comment[fr]=yotokens, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=yotokens, eşten eşe kriptografik sanal para birimi
+Exec=yotokens-qt %u
+Terminal=false
+Type=Application
+Icon=yotokens128
+MimeType=x-scheme-handler/yotokens;
+Categories=Office;Finance;
