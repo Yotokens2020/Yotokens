@@ -14,7 +14,7 @@ Yotokens is a cutting edge cryptocurrency, with many features not available in m
 
 ### Coin Specs
 <table>
-<tr><td>Ticker Symbol</td><td>yotokens</td></tr>
+<tr><td>Ticker Symbol</td><td>YOCO</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
 <tr><td>Block Time</td><td>120 Seconds</td></tr>
