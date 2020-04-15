@@ -19,7 +19,7 @@ Yotokens is a cutting edge cryptocurrency, with many features not available in m
 <tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
 <tr><td>Block Time</td><td>120 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>325,000,0000  yotokens</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>250,000,0000  yotokens</td></tr>
 <tr><td>Premine/Initial Supply</td><td>62,500,000 </td></tr>
 <tr><td>yotokens Created Per block</td><td>100 yotokens*</td></tr>
 </table>
