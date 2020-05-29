@@ -368,10 +368,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xb7;
+        pchMessageStart[0] = 0x6b;
+        pchMessageStart[1] = 0x0c;
         pchMessageStart[2] = 0x13;
-        pchMessageStart[3] = 0xb6;
+        pchMessageStart[3] = 0xb7;
         vAlertPubKey = ParseHex("0410544f386dfb318cd00c7c5471c4ac92317c12e0d86915942c39ea00f3df08a90b64b0887523a8a6f33f62b109049ba4d2d19d2f8b97fe620f5b1980f86f1429");
         nDefaultPort = 55606;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // yotokens starting difficulty is 1 / 2^12
@@ -381,15 +381,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // yotokens: 1 day
-        nTargetSpacing = 2 * 60;  // yotokens: 1 minute
-        nLastPOWBlock = 250;
+        nTargetTimespan = 2 * 60; // yotokens: 2 day
+        nTargetSpacing = 2 * 60;  // yotokens: 2 minute
+        nLastPOWBlock = 262800;
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
         nMaxMoneyOut = 250000000 * COIN;
 
-        const char* pszTimestamp = "yotokens is part of the yotalk app, 06-04-2020";
+        const char* pszTimestamp = "yotokens is part of the yotalk app, 06-04-2020, changed to Proof of work";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -400,9 +400,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1586225788;
+        genesis.nTime = 1590711472;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 128076;
+        genesis.nNonce = 439432;
 
 const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
 
@@ -443,7 +443,7 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
         hashGenesisBlock = genesis.GetHash();
 
 
-        assert(hashGenesisBlock == uint256("0x3d6a192bd77a801249f04e2e4479c549a0772d346e416a32273ee09d10c209c7"));
+        assert(hashGenesisBlock == uint256("0x3215105b812f3f1c20258ae0d510f47fb2f79362926c1205589f0d5b1c26d503"));
 
         vSeeds.push_back(CDNSSeedData("206.189.177.57", "206.189.177.57"));  // Seed node 1		
         vSeeds.push_back(CDNSSeedData("64.225.67.141", "64.225.67.141"));  // Seed node 2	
@@ -453,7 +453,7 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 78);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 35);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x2D)(0x02)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x25)(0x33)(0x2D)(0x02).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x21)(0x02)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
