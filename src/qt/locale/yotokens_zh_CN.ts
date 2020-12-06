@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     </context>
 </TS>

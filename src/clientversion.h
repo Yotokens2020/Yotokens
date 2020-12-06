@@ -6,16 +6,16 @@
 #define BITCOIN_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/diablo-config.h"
+#include "config/yotokens-config.h"
 #else
 
 /**
  * client versioning and copyright year
  */
 
-//! These need to be macros, as clientversion.cpp's and diablo*-res.rc's voodoo requires it
-#define CLIENT_VERSION_MAJOR 3
-#define CLIENT_VERSION_MINOR 0
+//! These need to be macros, as clientversion.cpp's and yotokens*-res.rc's voodoo requires it
+#define CLIENT_VERSION_MAJOR 2
+#define CLIENT_VERSION_MINOR 4
 #define CLIENT_VERSION_REVISION 0
 #define CLIENT_VERSION_BUILD 0
 
@@ -26,7 +26,7 @@
  * Copyright year (2009-this)
  * Todo: update this when changing our copyright comments in the source
  */
-#define COPYRIGHT_YEAR 2020
+#define COPYRIGHT_YEAR 2019
 
 #endif //HAVE_CONFIG_H
 
@@ -38,10 +38,10 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Dash Core Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " The diablo Core Developers"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Dash Core Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " The yotokens Core Developers"
 
 /**
- * diablod-res.rc includes this file, but it cannot cope with real c++ code.
+ * yotokensd-res.rc includes this file, but it cannot cope with real c++ code.
  * WINDRES_PREPROC is defined to indicate that its pre-processor is running.
  * Anything other than a define should be guarded below.
  */

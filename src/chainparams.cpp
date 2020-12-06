@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The diablo developers
+// Copyright (c) 2015-2017 The yotokens developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -331,20 +331,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x3215105b812f3f1c20258ae0d510f47fb2f79362926c1205589f0d5b1c26d503"))
-	(15, uint256S("0x000001a9fdcbf3f841cd7e7f49ee21072d1ced08dec940b6dfd03a326435054f"))
-    (20, uint256S("0x00000f07d1133dcbf6367f040d053d1acb1074dff9a1ea5def3fa92da08f7baf")) 
-    (25, uint256S("0x00000296feb617875759b4ebed8fe07b6fdd20561100bd7e3fc5a1d3c6ccd473"));
-	
-
-	
-	
+    boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1590807917, // * UNIX timestamp of last checkpoint block
-    26,    // * total number of transactions between genesis and last checkpoint
+    1506091284, // * UNIX timestamp of last checkpoint block
+    1,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    1000        // * estimated number of transactions per day after checkpoint
+    2        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -375,28 +368,28 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x6b;
-        pchMessageStart[1] = 0x0c;
+        pchMessageStart[0] = 0xfc;
+        pchMessageStart[1] = 0xb7;
         pchMessageStart[2] = 0x13;
-        pchMessageStart[3] = 0xb7;
+        pchMessageStart[3] = 0xb6;
         vAlertPubKey = ParseHex("0410544f386dfb318cd00c7c5471c4ac92317c12e0d86915942c39ea00f3df08a90b64b0887523a8a6f33f62b109049ba4d2d19d2f8b97fe620f5b1980f86f1429");
         nDefaultPort = 55606;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // diablo starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // yotokens starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // diablo: 2 day
-        nTargetSpacing = 2 * 60;  // diablo: 2 minute
-        nLastPOWBlock = 262800;
+        nTargetTimespan = 2 * 60; // yotokens: 1 day
+        nTargetSpacing = 2 * 60;  // yotokens: 1 minute
+        nLastPOWBlock = 250;
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
         nMaxMoneyOut = 250000000 * COIN;
 
-        const char* pszTimestamp = "diablo is part of the yotalk app, 06-04-2020, changed to Proof of work";
+        const char* pszTimestamp = "yotokens is part of the yotalk app, 06-04-2020";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -407,9 +400,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1590711472;
+        genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 439432;
+        genesis.nNonce = 128076;
 
 const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
 
@@ -450,7 +443,7 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
         hashGenesisBlock = genesis.GetHash();
 
 
-        assert(hashGenesisBlock == uint256("0x3215105b812f3f1c20258ae0d510f47fb2f79362926c1205589f0d5b1c26d503"));
+        assert(hashGenesisBlock == uint256("0x3d6a192bd77a801249f04e2e4479c549a0772d346e416a32273ee09d10c209c7"));
 
         vSeeds.push_back(CDNSSeedData("206.189.177.57", "206.189.177.57"));  // Seed node 1		
         vSeeds.push_back(CDNSSeedData("64.225.67.141", "64.225.67.141"));  // Seed node 2	
@@ -460,7 +453,7 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 78);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 35);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x25)(0x33)(0x2D)(0x02).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x2D)(0x02)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x21)(0x02)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
@@ -511,8 +504,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // diablo: 1 day
-        nTargetSpacing = 1 * 60;  // diablo: 1 minute
+        nTargetTimespan = 1 * 60; // yotokens: 1 day
+        nTargetSpacing = 1 * 60;  // yotokens: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -528,19 +521,19 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "diablo-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "diablo-testnet.seed2.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "yotokens-testnet.seed.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "yotokens-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet diablo addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet diablo script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet yotokens addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet yotokens script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet diablo BIP32 pubkeys start with 'DRKV'
+        // Testnet yotokens BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet diablo BIP32 prvkeys start with 'DRKP'
+        // Testnet yotokens BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet diablo BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet yotokens BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -585,8 +578,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // diablo: 1 day
-        nTargetSpacing = 1 * 60;        // diablo: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // yotokens: 1 day
+        nTargetSpacing = 1 * 60;        // yotokens: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

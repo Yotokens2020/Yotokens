@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The diablo developers
+// Copyright (c) 2015-2017 The yotokens developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/diablo-config.h"
+#include "config/yotokens-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -61,7 +61,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::diablo);
+        settings.setValue("nDisplayUnit", BitcoinUnits::yotokens);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizediabloAmount"))
-        settings.setValue("nAnonymizediabloAmount", 1000);
+    if (!settings.contains("nAnonymizeyotokensAmount"))
+        settings.setValue("nAnonymizeyotokensAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizediabloAmount = settings.value("nAnonymizediabloAmount").toLongLong();
+    nAnonymizeyotokensAmount = settings.value("nAnonymizeyotokensAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizediabloAmount"))
-        SoftSetArg("-anonymizediabloamount", settings.value("nAnonymizediabloAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeyotokensAmount"))
+        SoftSetArg("-anonymizeyotokensamount", settings.value("nAnonymizeyotokensAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -158,7 +158,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in diablo.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in yotokens.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizediabloAmount:
-            return QVariant(nAnonymizediabloAmount);
+        case AnonymizeyotokensAmount:
+            return QVariant(nAnonymizeyotokensAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -337,10 +337,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizediabloAmount:
-            nAnonymizediabloAmount = value.toInt();
-            settings.setValue("nAnonymizediabloAmount", nAnonymizediabloAmount);
-            emit anonymizediabloAmountChanged(nAnonymizediabloAmount);
+        case AnonymizeyotokensAmount:
+            nAnonymizeyotokensAmount = value.toInt();
+            settings.setValue("nAnonymizeyotokensAmount", nAnonymizeyotokensAmount);
+            emit anonymizeyotokensAmountChanged(nAnonymizeyotokensAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

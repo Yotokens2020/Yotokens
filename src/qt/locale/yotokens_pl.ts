@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE diablo!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE yotokens!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres diablo jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres yotokens jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>diablo Core</source>
+        <source>yotokens Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a diablo address</source>
-        <translation>Wyślij monety do adresu diablo</translation>
+        <source>Send coins to a yotokens address</source>
+        <translation>Wyślij monety do adresu yotokens</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and diablo: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i diablo:URI)</translation>
+        <source>Request payments (generates QR codes and yotokens: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i yotokens:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About diablo Core</source>
+        <source>&amp;About yotokens Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about diablo Core</source>
+        <source>Show information about yotokens Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for diablo</source>
-        <translation>Modyfikuj opcje konfiguracji diablo</translation>
+        <source>Modify configuration options for yotokens</source>
+        <translation>Modyfikuj opcje konfiguracji yotokens</translation>
     </message>
     <message>
-        <source>Sign messages with your diablo addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami diablo, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami yotokens, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu diablo</translation>
+        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu yotokens</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a diablo: URI or payment request</source>
-        <translation>Otwórz diablo: URI i żądanie zapłaty</translation>
+        <source>Open a yotokens: URI or payment request</source>
+        <translation>Otwórz yotokens: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia diablo, aby dostać listę możliwych opcji diablo command-line</translation>
+        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia yotokens, aby dostać listę możliwych opcji yotokens command-line</translation>
     </message>
     <message>
-        <source>diablo Core client</source>
-        <translation>Rdzeń diablo klient</translation>
+        <source>yotokens Core client</source>
+        <translation>Rdzeń yotokens klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>diablo Core</source>
+        <source>yotokens Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>diablo Core</source>
+        <source>yotokens Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start diablo after logging in to the system.</source>
-        <translation>Automatycznie uruchom diablo po zalogowaniu do systemu</translation>
+        <source>Automatically start yotokens after logging in to the system.</source>
+        <translation>Automatycznie uruchom yotokens po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start diablo on system login</source>
-        <translation>&amp;Uruchom diablo podczas logowania do systemu</translation>
+        <source>&amp;Start yotokens on system login</source>
+        <translation>&amp;Uruchom yotokens podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of diablo to keep anonymized</source>
-        <translation>Liczba diablo do anonimizacji</translation>
+        <source>Amount of yotokens to keep anonymized</source>
+        <translation>Liczba yotokens do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting diablo.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie diablo</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting yotokens.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie yotokens</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/diablo-project/diablo-project-translations</source>
+https://www.transifex.com/yotokens-project/yotokens-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/diablo-project/diablo-project-translations </translation>
+https://www.transifex.com/yotokens-project/yotokens-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the diablo network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią diablo poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the yotokens network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią yotokens poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,7 +1373,7 @@ https://www.transifex.com/diablo-project/diablo-project-translations </translati
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 diablo / 0 Rounds</source>
+        <source>0 yotokens / 0 Rounds</source>
         <translation>0 OIVX / 0 Rund</translation>
     </message>
     <message>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations </translati
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a diablo address (e.g. %1)</source>
-        <translation>Wprowadź adres diablo (np. %1)</translation>
+        <source>Enter a yotokens address (e.g. %1)</source>
+        <translation>Wprowadź adres yotokens (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations </translati
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres diablo jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres yotokens jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/diablo-project/diablo-project-translations </translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>diablo Core</source>
+        <source>yotokens Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/diablo-project/diablo-project-translations </translati
     </message>
     </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina diablo adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina yotokens adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina diablo adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina yotokens adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>diablo kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PIEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>yotokens kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PIEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA diablo&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA yotokens&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en diablo adress som du vill kryptera med BIP 38.
+        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Skriv in en yotokens adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>diablo adressen för signera meddelandet med</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>yotokens adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna diablo adress</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna yotokens adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>diablo adressen meddelandet blev signerat med</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>yotokens adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika diablo adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika yotokens adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Kärna</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a diablo address</source>
-        <translation>Skicka mynt till en diablo adress</translation>
+        <source>Send coins to a yotokens address</source>
+        <translation>Skicka mynt till en yotokens adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and diablo: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och diablo: URls)</translation>
+        <source>Request payments (generates QR codes and yotokens: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och yotokens: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About diablo Core</source>
-        <translation>Om diablo Kärnan</translation>
+        <source>&amp;About yotokens Core</source>
+        <translation>Om yotokens Kärnan</translation>
     </message>
     <message>
-        <source>Show information about diablo Core</source>
-        <translation>Visa information om diablo Kärnan</translation>
+        <source>Show information about yotokens Core</source>
+        <translation>Visa information om yotokens Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for diablo</source>
-        <translation>Ändra konfigurationsval för diablo</translation>
+        <source>Modify configuration options for yotokens</source>
+        <translation>Ändra konfigurationsval för yotokens</translation>
     </message>
     <message>
-        <source>Sign messages with your diablo addresses to prove you own them</source>
-        <translation>Signera meddelanden med din diablo adress för att visa att du äger dem</translation>
+        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <translation>Signera meddelanden med din yotokens adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika diablo adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika yotokens adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>diablo Core client</source>
-        <translation>diablo kärn klient</translation>
+        <source>yotokens Core client</source>
+        <translation>yotokens kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Kärna</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Kärna</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>diablo adressen för signera meddelandet med</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>yotokens adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna diablo adress</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna yotokens adress</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>diablo adressen meddelandet blev signerat med</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>yotokens adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika diablo adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika yotokens adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Kärna</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

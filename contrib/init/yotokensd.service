@@ -1,19 +1,19 @@
 [Unit]
-Description=diablo's distributed currency daemon
+Description=yotokens's distributed currency daemon
 After=network.target
 
 [Service]
-User=diablo
-Group=diablo
+User=yotokens
+Group=yotokens
 
 Type=forking
-PIDFile=/var/lib/diablod/diablod.pid
+PIDFile=/var/lib/yotokensd/yotokensd.pid
 
-ExecStart=/usr/bin/diablod -daemon -pid=/var/lib/diablod/diablod.pid \
-          -conf=/etc/diablo/diablo.conf -datadir=/var/lib/diablod
+ExecStart=/usr/bin/yotokensd -daemon -pid=/var/lib/yotokensd/yotokensd.pid \
+          -conf=/etc/yotokens/yotokens.conf -datadir=/var/lib/yotokensd
 
-ExecStop=-/usr/bin/diablo-cli -conf=/etc/diablo/diablo.conf \
-         -datadir=/var/lib/diablod stop
+ExecStop=-/usr/bin/yotokens-cli -conf=/etc/yotokens/yotokens.conf \
+         -datadir=/var/lib/yotokensd stop
 
 Restart=always
 PrivateTmp=true

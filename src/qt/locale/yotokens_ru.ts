@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши diablo-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши yotokens-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши diablo-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши yotokens-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>diablo сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши diablo от кражи с использованием вредоносного ПО.</translation>
+        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>yotokens сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши yotokens от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ diablo&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ yotokens&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите diablo адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите yotokens адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>Адрес diablo для подписи сообщения с помощью</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>Адрес yotokens для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес diablo</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес yotokens</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>Адрес diablo, которым подписано сообщение</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>Адрес yotokens, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным diablo адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным yotokens адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
-        <source>Send coins to a diablo address</source>
-        <translation>Отправить монеты на diablo адрес</translation>
+        <source>Send coins to a yotokens address</source>
+        <translation>Отправить монеты на yotokens адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and diablo: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и diablo: URI)</translation>
+        <source>Request payments (generates QR codes and yotokens: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и yotokens: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About diablo Core</source>
-        <translation>&amp;О diablo Core</translation>
+        <source>&amp;About yotokens Core</source>
+        <translation>&amp;О yotokens Core</translation>
     </message>
     <message>
-        <source>Show information about diablo Core</source>
-        <translation>Показать информацию о diablo Core</translation>
+        <source>Show information about yotokens Core</source>
+        <translation>Показать информацию о yotokens Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for diablo</source>
-        <translation>Изменение параметров конфигурации diablo</translation>
+        <source>Modify configuration options for yotokens</source>
+        <translation>Изменение параметров конфигурации yotokens</translation>
     </message>
     <message>
-        <source>Sign messages with your diablo addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими diablo адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими yotokens адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным diablo адресом </translation>
+        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным yotokens адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a diablo: URI or payment request</source>
-        <translation>Открыть diablo: URI или запрос платежа</translation>
+        <source>Open a yotokens: URI or payment request</source>
+        <translation>Открыть yotokens: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,16 +674,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды diablo</translation>
+        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды yotokens</translation>
     </message>
     <message>
-        <source>diablo Core client</source>
-        <translation>Клиент diablo Core</translation>
+        <source>yotokens Core client</source>
+        <translation>Клиент yotokens Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to diablo network</source>
-        <translation><numerusform>%n активное подключение к сети diablo</numerusform><numerusform>%n активных подключений к сети diablo</numerusform><numerusform>%n активных подключений к сети diablo</numerusform><numerusform>%n активных подключений к сети diablo</numerusform></translation>
+        <source>%n active connection(s) to yotokens network</source>
+        <translation><numerusform>%n активное подключение к сети yotokens</numerusform><numerusform>%n активных подключений к сети yotokens</numerusform><numerusform>%n активных подключений к сети yotokens</numerusform><numerusform>%n активных подключений к сети yotokens</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -829,8 +829,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (diablo.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (diablo.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (yotokens.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (yotokens.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid diablo address.</source>
-        <translation>Введенный адрес "%1" не является diablo адресом.</translation>
+        <source>The entered address "%1" is not a valid yotokens address.</source>
+        <translation>Введенный адрес "%1" не является yotokens адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1176,16 +1176,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About diablo Core</source>
-        <translation>О diablo Core</translation>
+        <source>About yotokens Core</source>
+        <translation>О yotokens Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1231,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to diablo Core.</source>
-        <translation>Добро пожаловать в diablo Core.</translation>
+        <source>Welcome to yotokens Core.</source>
+        <translation>Добро пожаловать в yotokens Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where diablo Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные diablo Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where yotokens Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные yotokens Core.</translation>
     </message>
     <message>
-        <source>diablo Core will download and store a copy of the diablo block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>diablo Core загрузит и сохранит копию цепочки блоков diablo. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>yotokens Core will download and store a copy of the yotokens block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>yotokens Core загрузит и сохранит копию цепочки блоков yotokens. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1251,8 +1251,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1393,12 +1393,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other diablo addresses after it matures.
-To Add: enter percentage to give and diablo address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other yotokens addresses after it matures.
+To Add: enter percentage to give and yotokens address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие diablo адреса.
-Для добавления: введите передаваемый процент и diablo адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие yotokens адреса.
+Для добавления: введите передаваемый процент и yotokens адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1536,48 +1536,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 diablo</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 diablo</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 yotokens</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 yotokens</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 diablo</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 diablo</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 yotokens</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 yotokens</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 diablo to anonymize 10000 diablo</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 diablo для анонимизации 10000 diablo</translation>
+        <source>This option is the quickest and will cost about ~0.025 yotokens to anonymize 10000 yotokens</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 yotokens для анонимизации 10000 yotokens</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 diablo to anonymize 10000 diablo</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 diablo для анонимизации 10000 diablo</translation>
+        <source>This option is moderately fast and will cost about 0.05 yotokens to anonymize 10000 yotokens</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 yotokens для анонимизации 10000 yotokens</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 diablo per 10000 diablo you anonymize.</source>
-        <translation>0.1 diablo за 10000 diablo которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 yotokens per 10000 yotokens you anonymize.</source>
+        <translation>0.1 yotokens за 10000 yotokens которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening diablo's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки diablo.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening yotokens's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки yotokens.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening diablo's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки diablo.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening yotokens's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки yotokens.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening diablo's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки diablo.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening yotokens's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки yotokens.</translation>
     </message>
 </context>
 <context>
@@ -1638,8 +1638,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the diablo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт diablo через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the yotokens client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт yotokens через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1658,12 +1658,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start diablo after logging in to the system.</source>
-        <translation>Автоматически запускать diablo после входа в систему.</translation>
+        <source>Automatically start yotokens after logging in to the system.</source>
+        <translation>Автоматически запускать yotokens после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start diablo on system login</source>
-        <translation>&amp;Запускать diablo при входе в систему</translation>
+        <source>&amp;Start yotokens on system login</source>
+        <translation>&amp;Запускать yotokens при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1678,8 +1678,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of diablo to keep anonymized</source>
-        <translation>Количество diablo, держащихся анонимизированными</translation>
+        <source>Amount of yotokens to keep anonymized</source>
+        <translation>Количество yotokens, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1706,22 +1706,22 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting diablo.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска diablo.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting yotokens.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска yotokens.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/diablo-project/diablo-project-translations</source>
+https://www.transifex.com/yotokens-project/yotokens-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/diablo-project/diablo-project-translations</translation>
+https://www.transifex.com/yotokens-project/yotokens-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the diablo network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети diablo через SOCKS5 прокси.</translation>
+        <source>Connect to the yotokens network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети yotokens через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1875,8 +1875,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Балансы</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the diablo network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью diablo после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the yotokens network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью yotokens после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1919,8 +1919,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Баланс Обфускации</translation>
     </message>
     <message>
-        <source>0 diablo / 0 Rounds</source>
-        <translation>0 diablo / 0 Циклов</translation>
+        <source>0 yotokens / 0 Rounds</source>
+        <translation>0 yotokens / 0 Циклов</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2072,12 +2072,12 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start diablo: click-to-pay handler</source>
-        <translation>Не удалось запустить diablo: обработчик click-to-pay </translation>
+        <source>Cannot start yotokens: click-to-pay handler</source>
+        <translation>Не удалось запустить yotokens: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid diablo address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный diablo адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid yotokens address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный yotokens адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2162,8 +2162,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a diablo address (e.g. %1)</source>
-        <translation>Введите адрес diablo (например %1)</translation>
+        <source>Enter a yotokens address (e.g. %1)</source>
+        <translation>Введите адрес yotokens (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2296,8 +2296,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the diablo debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки diablo. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the yotokens debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки yotokens. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2457,8 +2457,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the diablo RPC console.</source>
-        <translation>Добро пожаловать в окружение diablo RPC.</translation>
+        <source>Welcome to the yotokens RPC console.</source>
+        <translation>Добро пожаловать в окружение yotokens RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2677,8 +2677,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 diablo</source>
-        <translation>0 diablo</translation>
+        <source>0 yotokens</source>
+        <translation>0 yotokens</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2761,8 +2761,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid diablo address</source>
-        <translation>Предупреждение: неправильный diablo адрес</translation>
+        <source>Warning: Invalid yotokens address</source>
+        <translation>Предупреждение: неправильный yotokens адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2815,8 +2815,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>diablo Core is shutting down...</source>
-        <translation>diablo Core выключается...</translation>
+        <source>yotokens Core is shutting down...</source>
+        <translation>yotokens Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2826,8 +2826,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>Адрес diablo для подписи сообщения с помощью</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>Адрес yotokens для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2850,16 +2850,16 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес diablo</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес yotokens</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>Адрес diablo, которым подписано сообщение</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>Адрес yotokens, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным diablo адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным yotokens адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2905,8 +2905,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2921,8 +2921,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The diablo Core developers</source>
-        <translation>Разработчики diablo Core</translation>
+        <source>The yotokens Core developers</source>
+        <translation>Разработчики yotokens Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3173,7 +3173,7 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -3207,8 +3207,8 @@ https://www.transifex.com/diablo-project/diablo-project-translations</translatio
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The diablo Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики diablo Core</translation>
+        <source>Copyright (C) 2015-%i The yotokens Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики yotokens Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

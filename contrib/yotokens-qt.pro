@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/diablo-config.h \
+           src/yotokens-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/diablo-config.h \
+           src/config/yotokens-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/diablo.moc \
+           src/qt/yotokens.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/diablo-cli.cpp \
-           src/diablo-tx.cpp \
-           src/diablo.cpp \
+           src/yotokens-cli.cpp \
+           src/yotokens-tx.cpp \
+           src/yotokens.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/diablo.cpp \
-           src/qt/diablostrings.cpp \
+           src/qt/yotokens.cpp \
+           src/qt/yotokensstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_diablo.cpp \
+           src/test/test_yotokens.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/diablo.qrc src/qt/diablo_locale.qrc
+RESOURCES += src/qt/yotokens.qrc src/qt/yotokens_locale.qrc
 
-TRANSLATIONS += src/qt/locale/diablo_bg.ts \
-                src/qt/locale/diablo_de.ts \
-                src/qt/locale/diablo_en.ts \
-                src/qt/locale/diablo_es.ts \
-                src/qt/locale/diablo_fi.ts \
-                src/qt/locale/diablo_fr.ts \
-                src/qt/locale/diablo_it.ts \
-                src/qt/locale/diablo_ja.ts \
-                src/qt/locale/diablo_pl.ts \
-                src/qt/locale/diablo_pt.ts \
-                src/qt/locale/diablo_ru.ts \
-                src/qt/locale/diablo_sk.ts \
-                src/qt/locale/diablo_sv.ts \
-                src/qt/locale/diablo_vi.ts \
-                src/qt/locale/diablo_zh_CN.ts \
-                src/qt/locale/diablo_zh_TW.ts
+TRANSLATIONS += src/qt/locale/yotokens_bg.ts \
+                src/qt/locale/yotokens_de.ts \
+                src/qt/locale/yotokens_en.ts \
+                src/qt/locale/yotokens_es.ts \
+                src/qt/locale/yotokens_fi.ts \
+                src/qt/locale/yotokens_fr.ts \
+                src/qt/locale/yotokens_it.ts \
+                src/qt/locale/yotokens_ja.ts \
+                src/qt/locale/yotokens_pl.ts \
+                src/qt/locale/yotokens_pt.ts \
+                src/qt/locale/yotokens_ru.ts \
+                src/qt/locale/yotokens_sk.ts \
+                src/qt/locale/yotokens_sv.ts \
+                src/qt/locale/yotokens_vi.ts \
+                src/qt/locale/yotokens_zh_CN.ts \
+                src/qt/locale/yotokens_zh_TW.ts

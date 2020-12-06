@@ -1,25 +1,25 @@
-# /etc/conf.d/diablod: config file for /etc/init.d/diablod
+# /etc/conf.d/yotokensd: config file for /etc/init.d/yotokensd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/diablo/diablo.conf"
+#BITCOIND_CONFIGFILE="/etc/yotokens/yotokens.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/diablod"
+#BITCOIND_PIDDIR="/var/run/yotokensd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/diablod.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/yotokensd.pid"
 
-# Where to write diablod data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/diablod"
+# Where to write yotokensd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/yotokensd"
 
-# User and group to own diablod process
-#BITCOIND_USER="diablo"
-#BITCOIND_GROUP="diablo"
+# User and group to own yotokensd process
+#BITCOIND_USER="yotokens"
+#BITCOIND_GROUP="yotokens"
 
-# Path to diablod executable
-#BITCOIND_BIN="/usr/bin/diablod"
+# Path to yotokensd executable
+#BITCOIND_BIN="/usr/bin/yotokensd"
 
-# Nice value to run diablod under
+# Nice value to run yotokensd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The diablo developers
+// Copyright (c) 2015-2017 The yotokens developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -219,10 +219,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop diablo server.");
+            "\nStop yotokens server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "diablo server stopping";
+    return "yotokens server stopping";
 }
 
 
@@ -299,16 +299,16 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* diablo features */
-        {"diablo", "masternode", &masternode, true, true, false},
-        {"diablo", "masternodelist", &masternodelist, true, true, false},
-        {"diablo", "mnbudget", &mnbudget, true, true, false},
-        {"diablo", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"diablo", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"diablo", "mnsync", &mnsync, true, true, false},
-        {"diablo", "spork", &spork, true, true, false},
+        /* yotokens features */
+        {"yotokens", "masternode", &masternode, true, true, false},
+        {"yotokens", "masternodelist", &masternodelist, true, true, false},
+        {"yotokens", "mnbudget", &mnbudget, true, true, false},
+        {"yotokens", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        {"yotokens", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"yotokens", "mnsync", &mnsync, true, true, false},
+        {"yotokens", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
-        {"diablo", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"yotokens", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -573,16 +573,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use diablod, or the -server option to diablo-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use yotokensd, or the -server option to yotokens-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=diablorpc\n"
+                                               "rpcuser=yotokensrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"diablo Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"yotokens Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1033,7 +1033,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> diablo-cli " + methodname + " " + args + "\n";
+    return "> yotokens-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie diablo überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie yotokens überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie diablo empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie yotokens empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre diablo-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie diablo überweisen.</translation>
+        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre yotokens-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie yotokens überweisen.</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre diablo-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre yotokens-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer PIEs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre PIEs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine diablo Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine yotokens Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>diablo Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>yotokens Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese diablo Adresse besitzt</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese yotokens Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -538,16 +538,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
-        <source>Send coins to a diablo address</source>
-        <translation>An eine diablo-Adresse überweisen</translation>
+        <source>Send coins to a yotokens address</source>
+        <translation>An eine yotokens-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and diablo: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und diablo: URIs)</translation>
+        <source>Request payments (generates QR codes and yotokens: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und yotokens: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -558,24 +558,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About diablo Core</source>
-        <translation>Über.diablo Core</translation>
+        <source>&amp;About yotokens Core</source>
+        <translation>Über.yotokens Core</translation>
     </message>
     <message>
-        <source>Show information about diablo Core</source>
-        <translation>Zeigt Informationen über diablo Core</translation>
+        <source>Show information about yotokens Core</source>
+        <translation>Zeigt Informationen über yotokens Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for diablo</source>
-        <translation>Konfiguration von diablo verändern</translation>
+        <source>Modify configuration options for yotokens</source>
+        <translation>Konfiguration von yotokens verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your diablo addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer diablo-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer yotokens-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten diablo-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten yotokens-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -586,8 +586,8 @@
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
-        <source>diablo Core client</source>
-        <translation>diablo Core Client</translation>
+        <source>yotokens Core client</source>
+        <translation>yotokens Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -700,8 +700,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (diablo.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "diablo.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (yotokens.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "yotokens.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -881,8 +881,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid diablo address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige diablo-Adresse.</translation>
+        <source>The entered address "%1" is not a valid yotokens address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige yotokens-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -927,16 +927,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About diablo Core</source>
-        <translation>Über diablo Core</translation>
+        <source>About yotokens Core</source>
+        <translation>Über yotokens Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -970,16 +970,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to diablo Core.</source>
-        <translation>Willkommen zu diablo Core.</translation>
+        <source>Welcome to yotokens Core.</source>
+        <translation>Willkommen zu yotokens Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where diablo Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie diablo Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where yotokens Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie yotokens Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>diablo Core will download and store a copy of the diablo block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>diablo Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>yotokens Core will download and store a copy of the yotokens block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>yotokens Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,8 +990,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1228,8 +1228,8 @@ Adresse: %4</translation>
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 diablo / 0 Rounds</source>
-        <translation>0 diablo / 0 Runden</translation>
+        <source>0 yotokens / 0 Rounds</source>
+        <translation>0 yotokens / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1361,8 +1361,8 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a diablo address (e.g. %1)</source>
-        <translation>diablo-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a yotokens address (e.g. %1)</source>
+        <translation>yotokens-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1623,8 +1623,8 @@ Adresse: %4</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 diablo</source>
-        <translation>0 diablo</translation>
+        <source>0 yotokens</source>
+        <translation>0 yotokens</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1734,8 +1734,8 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The diablo address to send the payment to</source>
-        <translation>diablo-Adresse, an die überwiesen werden soll</translation>
+        <source>The yotokens address to send the payment to</source>
+        <translation>yotokens-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1774,8 +1774,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the diablo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the diablo network.</source>
-        <translation>Eine an die diablo-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das diablo-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the yotokens: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the yotokens network.</source>
+        <translation>Eine an die yotokens-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das yotokens-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1801,8 +1801,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>diablo Core is shutting down...</source>
-        <translation>diablo Core wird beendet...</translation>
+        <source>yotokens Core is shutting down...</source>
+        <translation>yotokens Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1816,8 +1816,8 @@ Adresse: %4</translation>
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>diablo Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>yotokens Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1844,8 +1844,8 @@ Adresse: %4</translation>
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese diablo Adresse besitzt</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese yotokens Adresse besitzt</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1875,8 +1875,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1891,8 +1891,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The diablo Core developers</source>
-        <translation>Die diablo Core Entwickler</translation>
+        <source>The yotokens Core developers</source>
+        <translation>Die yotokens Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2415,8 +2415,8 @@ Adresse: %4</translation>
         <translation>PIEs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 diablo.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 diablo begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 yotokens.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 yotokens begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2459,7 +2459,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2609,8 +2609,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart diablo Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte diablo Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart yotokens Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte yotokens Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

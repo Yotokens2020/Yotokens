@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy diablo</string>
+      <string>Buy yotokens</string>
      </property>
      <property name="icon">
-      <iconset resource="../diablo.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>diablo</string>
+      <string>yotokens</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,7 +1704,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>diablo</string>
+      <string>yotokens</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="UnitsInputPIE">
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell diablo</string>
+      <string>Sell yotokens</string>
      </property>
      <property name="icon">
-      <iconset resource="../diablo">
+      <iconset resource="../yotokens">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,7 +1777,7 @@
          </font>
         </property>
         <property name="text">
-         <string>diablo Available:</string>
+         <string>yotokens Available:</string>
         </property>
        </widget>
       </item>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>diablo</string>
+         <string>yotokens</string>
         </property>
        </widget>
       </item>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>diablo Balance:</string>
+      <string>yotokens Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>diablo Available:</string>
+      <string>yotokens Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,7 +2832,7 @@
       </font>
      </property>
      <property name="text">
-      <string>diablo Pending:</string>
+      <string>yotokens Pending:</string>
      </property>
     </widget>
     <widget class="QLabel" name="PIEPendingLabel">
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex diablo Deposit Address:</string>
+      <string>Bittrex yotokens Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate diablo Deposit Address</string>
+      <string>Generate yotokens Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../diablo.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertdiablo">
+     <widget class="QPushButton" name="btnConvertyotokens">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../diablo.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../yotokens.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../diablo.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../diablo.qrc"/>
+  <include location="../yotokens.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše diablo adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše yotokens adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše diablo adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše yotokens adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>diablo sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše diablo pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>yotokens sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše yotokens pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY diablo &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY yotokens &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu diablo, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu yotokens, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>Adresa diablo, ktorou chcete správu podpísať</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>Adresa yotokens, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto diablo adresy</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto yotokens adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>diablo adresa, ktorou bola správa podpísaná</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>yotokens adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou diablo adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou yotokens adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
-        <source>Send coins to a diablo address</source>
-        <translation>Odoslať mince na adresu diablo</translation>
+        <source>Send coins to a yotokens address</source>
+        <translation>Odoslať mince na adresu yotokens</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and diablo: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a diablo: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and yotokens: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a yotokens: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About diablo Core</source>
-        <translation>O diablo Core</translation>
+        <source>&amp;About yotokens Core</source>
+        <translation>O yotokens Core</translation>
     </message>
     <message>
-        <source>Show information about diablo Core</source>
-        <translation>Zobraziť informácie o diablo Core</translation>
+        <source>Show information about yotokens Core</source>
+        <translation>Zobraziť informácie o yotokens Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for diablo</source>
-        <translation>Zmeňte možnosti konfigurácie pre diablo</translation>
+        <source>Modify configuration options for yotokens</source>
+        <translation>Zmeňte možnosti konfigurácie pre yotokens</translation>
     </message>
     <message>
-        <source>Sign messages with your diablo addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy diablo, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy yotokens, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými diablo adresami</translation>
+        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými yotokens adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a diablo: URI or payment request</source>
-        <translation>Otvorte diablo: URI alebo žiadosť o platbu</translation>
+        <source>Open a yotokens: URI or payment request</source>
+        <translation>Otvorte yotokens: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
-        <translation>Zobraziť pomocnú správu programu diablo Core a získajte zoznam možností príkazového riadka diablo</translation>
+        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
+        <translation>Zobraziť pomocnú správu programu yotokens Core a získajte zoznam možností príkazového riadka yotokens</translation>
     </message>
     <message>
-        <source>diablo Core client</source>
-        <translation>diablo Core klient</translation>
+        <source>yotokens Core client</source>
+        <translation>yotokens Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (diablo.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (diablo.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (yotokens.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (yotokens.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The diablo address to sign the message with</source>
-        <translation>Adresa diablo, ktorou chcete správu podpísať</translation>
+        <source>The yotokens address to sign the message with</source>
+        <translation>Adresa yotokens, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1117,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this diablo address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto diablo adresy</translation>
+        <source>Sign the message to prove you own this yotokens address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto yotokens adresy</translation>
     </message>
     <message>
-        <source>The diablo address the message was signed with</source>
-        <translation>diablo adresa, ktorou bola správa podpísaná</translation>
+        <source>The yotokens address the message was signed with</source>
+        <translation>yotokens adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified diablo address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou diablo adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou yotokens adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>diablo Core</source>
-        <translation>diablo Core</translation>
+        <source>yotokens Core</source>
+        <translation>yotokens Core</translation>
     </message>
     </context>
 <context>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>diablo-core</name>
+    <name>yotokens-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

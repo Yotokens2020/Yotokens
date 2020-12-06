@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the diablod tests manually, launch src/test/test_diablo .
+To run the yotokensd tests manually, launch src/test/test_yotokens .
 
-To add more diablod tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more yotokensd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the diablo-qt tests manually, launch src/qt/test/diablo-qt_test
+To run the yotokens-qt tests manually, launch src/qt/test/yotokens-qt_test
 
-To add more diablo-qt tests, add them to the `src/qt/test/` directory and
+To add more yotokens-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

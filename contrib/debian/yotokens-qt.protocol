@@ -1,6 +1,6 @@
 [Protocol]
-exec=diablo-qt '%u'
-protocol=diablo
+exec=yotokens-qt '%u'
+protocol=yotokens
 input=none
 output=none
 helper=true

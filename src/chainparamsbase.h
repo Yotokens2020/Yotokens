@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between diablo-cli and diablod)
- * of a given instance of the diablo system.
+ * CBaseChainParams defines the base parameters (shared between yotokens-cli and yotokensd)
+ * of a given instance of the yotokens system.
  */
 class CBaseChainParams
 {
