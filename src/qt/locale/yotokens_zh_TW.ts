@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出yotokens幣的位址</translation>
+        <translation>選擇要匯出diablo幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收yotokens幣的位址</translation>
+        <translation>選擇要接收diablo幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 yotokens 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 diablo 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 yotokens 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 diablo 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>yotokens 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 yotokens 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>diablo 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 diablo 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(yotokens)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(diablo)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 yotokens 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 diablo 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>對訊息簽名的 yotokens 位址</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>對訊息簽名的 diablo 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>使用簽章來證明你是該  yotokens 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>使用簽章來證明你是該  diablo 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>此訊息之 yotokens 位址已簽章於</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>此訊息之 diablo 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
-        <translation>驗證訊息以確保該  yotokens 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified diablo address</source>
+        <translation>驗證訊息以確保該  diablo 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
-        <source>Send coins to a yotokens address</source>
-        <translation>送出錢幣到 yotokens 地址</translation>
+        <source>Send coins to a diablo address</source>
+        <translation>送出錢幣到 diablo 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and yotokens: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 yotokens 位址)</translation>
+        <source>Request payments (generates QR codes and diablo: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 diablo 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About yotokens Core</source>
-        <translation>&amp;關於 yotokens Core</translation>
+        <source>&amp;About diablo Core</source>
+        <translation>&amp;關於 diablo Core</translation>
     </message>
     <message>
-        <source>Show information about yotokens Core</source>
-        <translation>顯示 yotokens Core 相關資訊</translation>
+        <source>Show information about diablo Core</source>
+        <translation>顯示 diablo Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for yotokens</source>
-        <translation>修改 yotokens 設定</translation>
+        <source>Modify configuration options for diablo</source>
+        <translation>修改 diablo 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your yotokens addresses to prove you own them</source>
-        <translation>使用你的 yotokens 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your diablo addresses to prove you own them</source>
+        <translation>使用你的 diablo 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
-        <translation>驗證訊息簽章與 yotokens 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
+        <translation>驗證訊息簽章與 diablo 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a yotokens: URI or payment request</source>
-        <translation>打開yotokens: 位址或付款請求 </translation>
+        <source>Open a diablo: URI or payment request</source>
+        <translation>打開diablo: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
-        <translation>顯示 yotokens Core 幫助訊息以取得 yotokens 命令列表選項</translation>
+        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
+        <translation>顯示 diablo Core 幫助訊息以取得 diablo 命令列表選項</translation>
     </message>
     <message>
-        <source>yotokens Core client</source>
-        <translation>yotokens Core 客戶端</translation>
+        <source>diablo Core client</source>
+        <translation>diablo Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     </context>
 <context>
@@ -817,8 +817,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>對訊息簽名的 yotokens 位址</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>對訊息簽名的 diablo 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -841,16 +841,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>使用簽章來證明你是該  yotokens 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>使用簽章來證明你是該  diablo 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>此訊息之 yotokens 位址已簽章於</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>此訊息之 diablo 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
-        <translation>驗證訊息以確保該  yotokens 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified diablo address</source>
+        <translation>驗證訊息以確保該  diablo 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     </context>
 <context>
@@ -952,6 +952,6 @@
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     </context>
 </TS>

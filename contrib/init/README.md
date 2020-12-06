@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: yotokensd.service
-Upstart: yotokensd.conf
-OpenRC:  yotokensd.openrc
-         yotokensd.openrcconf
-CentOS:  yotokensd.init
+SystemD: diablod.service
+Upstart: diablod.conf
+OpenRC:  diablod.openrc
+         diablod.openrcconf
+CentOS:  diablod.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,27 +1,27 @@
-<a href="https://ibb.co/NyNmcs3"><img src="https://i.ibb.co/Tg0b9kT/yoco.png" alt="yoco" border="0"></a>
+<a href="https://ibb.co/NyNmcs3"><img src="https://i.ibb.co/Tg0b9kT/DBLO.png" alt="DBLO" border="0"></a>
 
-yotokens Core integration/staging repository
+diablo Core integration/staging repository
 =====================================
 
 
-Yotokens is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
+diablo is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Coin Mixing_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with collateral of 100,000 yotokens
+  with collateral of 100,000 diablo
 
 
 ### Coin Specs
 <table>
-<tr><td>Ticker Symbol</td><td>YOCO</td></tr>
+<tr><td>Ticker Symbol</td><td>DBLO</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
 <tr><td>Block Time</td><td>120 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>250,000,0000  yotokens</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>250,000,0000  diablo</td></tr>
 <tr><td>Premine/Initial Supply</td><td>62,500,000 </td></tr>
-<tr><td>yotokens Created Per block</td><td>100 yotokens*</td></tr>
+<tr><td>diablo Created Per block</td><td>100 diablo*</td></tr>
 </table>
 
 
@@ -33,19 +33,19 @@ Yotokens is a cutting edge cryptocurrency, with many features not available in m
 
 ### Staking Methods
 <table>
-<tr><td>Masternodes</td><td>Yes - 50,000 yotokens Required</td></tr>
-<tr><td>Wallet Staking</td><td>Yes - 1 to infinite yotokens</td></tr>
+<tr><td>Masternodes</td><td>Yes - 50,000 diablo Required</td></tr>
+<tr><td>Wallet Staking</td><td>Yes - 1 to infinite diablo</td></tr>
 </table>
 
 ### Masternode Reward Details
 <table>
-<tr><td>yotokens Produced</td><td> 100 yotokens Per Block</td></tr>
+<tr><td>diablo Produced</td><td> 100 diablo Per Block</td></tr>
 
 </table>
 
 ### Staking Reward Details
 <table>
-<tr><td>yotokens Produced</td><td> 25 yotokens Per Block</td></tr>
+<tr><td>diablo Produced</td><td> 25 diablo Per Block</td></tr>
 <tr><td>Rewards Algorithm</td><td>Teeter Totter Based Targeting System</td></tr>
 <tr><td>Amount of Rewards Per Block</td><td>2 Rewards, 1 for Masternodes, 1 for Wallet Staking</td></tr>
 <tr><td>Coin Maturity to Stake</td><td>150 Blocks</td></tr>

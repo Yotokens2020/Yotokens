@@ -1,39 +1,39 @@
-yotokens Core
+diablo Core
 =====================
 
 Setup
 ---------------------
-[yotokens Core](http://yotokens.org/wallet) is the original yotokens client and it builds the backbone of the network. However, it downloads and stores the entire history of yotokens transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[diablo Core](http://diablo.org/wallet) is the original diablo client and it builds the backbone of the network. However, it downloads and stores the entire history of diablo transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run yotokens on your native platform.
+The following are some helpful notes on how to run diablo on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/yotokens-qt (GUI, 32-bit) or bin/32/yotokensd (headless, 32-bit)
-- bin/64/yotokens-qt (GUI, 64-bit) or bin/64/yotokensd (headless, 64-bit)
+- bin/32/diablo-qt (GUI, 32-bit) or bin/32/diablod (headless, 32-bit)
+- bin/64/diablo-qt (GUI, 64-bit) or bin/64/diablod (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run yotokens-qt.exe.
+Unpack the files into a directory, and then run diablo-qt.exe.
 
 ### OSX
 
-Drag yotokens-Qt to your applications folder, and then run yotokens-Qt.
+Drag diablo-Qt to your applications folder, and then run diablo-Qt.
 
 ### Need Help?
 
-* See the documentation at the [yotokens Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [diablo Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [yotokens Forum](http://forum.yotokens.org/).
-* Join one of our Slack groups [yotokens Slack Groups](https://yotokens.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [diablo Forum](http://forum.diablo.org/).
+* Join one of our Slack groups [diablo Slack Groups](https://diablo.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build yotokens on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build diablo on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build yotokens on your native platfo
 
 Development
 ---------------------
-The yotokens repo's [root README](https://github.com/yotokens-Project/yotokens/blob/master/README.md) contains relevant information on the development process and automated testing.
+The diablo repo's [root README](https://github.com/diablo-Project/diablo/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The yotokens repo's [root README](https://github.com/yotokens-Project/yotokens/b
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [yotokens](http://forum.yotokens.org/) forum.
-* Join the [yotokens-Dev](https://yotokens-dev.slack.com/) Slack group ([Sign-Up](https://yotokens-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [diablo](http://forum.diablo.org/) forum.
+* Join the [diablo-Dev](https://diablo-dev.slack.com/) Slack group ([Sign-Up](https://diablo-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
-        <source>&amp;About yotokens Core</source>
-        <translation>&amp;Sobre yotokens Core</translation>
+        <source>&amp;About diablo Core</source>
+        <translation>&amp;Sobre diablo Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
-        <source>About yotokens Core</source>
-        <translation>Sobre yotokens Core</translation>
+        <source>About diablo Core</source>
+        <translation>Sobre diablo Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to yotokens Core.</source>
-        <translation>Benvingut a yotokens Core.</translation>
+        <source>Welcome to diablo Core.</source>
+        <translation>Benvingut a diablo Core.</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * yotokens RPC command dispatcher.
+ * diablo RPC command dispatcher.
  */
 class CRPCTable
 {

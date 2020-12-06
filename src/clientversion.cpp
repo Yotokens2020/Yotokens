@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both yotokensd and yotokens-qt, to make it harder for attackers to
+ * for both diablod and diablo-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("yotokens Core");
+const std::string CLIENT_NAME("diablo Core");
 
 /**
  * Client version number

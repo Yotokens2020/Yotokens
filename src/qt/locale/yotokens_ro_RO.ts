@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     </context>
 </TS>

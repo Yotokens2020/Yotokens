@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi yotokens per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi diablo per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi yotokens per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi diablo per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>yotokens verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi yotokens dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>diablo verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi diablo dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI yotokens&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI diablo&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo yotokens che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo diablo che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>L'indirizzo yotokens per firmare il messaggio con</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>L'indirizzo diablo per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo yotokens</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo diablo</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>L'indirizzo yotokens con cui è stato firmato il messaggio</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>L'indirizzo diablo con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo yotokens specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified diablo address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo diablo specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
-        <source>Send coins to a yotokens address</source>
-        <translation>Invia monete all' indirizzo yotokens</translation>
+        <source>Send coins to a diablo address</source>
+        <translation>Invia monete all' indirizzo diablo</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and yotokens: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e yotokens: URIs)</translation>
+        <source>Request payments (generates QR codes and diablo: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e diablo: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About yotokens Core</source>
-        <translation>&amp;Informazioni yotokens Core</translation>
+        <source>&amp;About diablo Core</source>
+        <translation>&amp;Informazioni diablo Core</translation>
     </message>
     <message>
-        <source>Show information about yotokens Core</source>
-        <translation>Visualizza informazioni su yotokens Core</translation>
+        <source>Show information about diablo Core</source>
+        <translation>Visualizza informazioni su diablo Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for yotokens</source>
-        <translation>Modifica le opzioni di configurazione per yotokens</translation>
+        <source>Modify configuration options for diablo</source>
+        <translation>Modifica le opzioni di configurazione per diablo</translation>
     </message>
     <message>
-        <source>Sign messages with your yotokens addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi yotokens per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your diablo addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi diablo per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi yotokens specifici</translation>
+        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi diablo specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a yotokens: URI or payment request</source>
-        <translation>Apri un yotokens: URI o richiesta di pagamento</translation>
+        <source>Open a diablo: URI or payment request</source>
+        <translation>Apri un diablo: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
-        <translation>Mostra il messaggio di aiuto yotokens Core per ottenere un elenco con le possibili opzioni di riga di comando yotokens</translation>
+        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
+        <translation>Mostra il messaggio di aiuto diablo Core per ottenere un elenco con le possibili opzioni di riga di comando diablo</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (yotokens.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (yotokens.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (diablo.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (diablo.conf)</translation>
     </message>
 </context>
 <context>
@@ -893,8 +893,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -920,8 +920,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>L'indirizzo yotokens per firmare il messaggio con</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>L'indirizzo diablo per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo yotokens</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo diablo</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>L'indirizzo yotokens con cui è stato firmato il messaggio</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>L'indirizzo diablo con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified yotokens address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo yotokens specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified diablo address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo diablo specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Core</translation>
+        <source>diablo Core</source>
+        <translation>diablo Core</translation>
     </message>
     </context>
 <context>
@@ -1273,7 +1273,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

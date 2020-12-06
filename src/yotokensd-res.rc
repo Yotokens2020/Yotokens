@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "yotokens"
-            VALUE "FileDescription",    "yotokensd (OSS daemon/client for yotokens)"
+            VALUE "CompanyName",        "diablo"
+            VALUE "FileDescription",    "diablod (OSS daemon/client for diablo)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "yotokensd"
+            VALUE "InternalName",       "diablod"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "yotokensd.exe"
-            VALUE "ProductName",        "yotokensd"
+            VALUE "OriginalFilename",   "diablod.exe"
+            VALUE "ProductName",        "diablod"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços yotokens para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços diablo para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços yotokens para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços diablo para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>yotokens encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PIEs contra roubo por malware infectando seu computador.</translation>
+        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>diablo encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PIEs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA yotokens&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA diablo&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço yotokens que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço diablo que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>Um endereço yotokens para assinar a mensagem</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>Um endereço diablo para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço yotokens.</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço diablo.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>O endereço yotokens que foi assinado com</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>O endereço diablo que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -633,8 +633,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>Um endereço yotokens para assinar a mensagem</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>Um endereço diablo para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -665,12 +665,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço yotokens.</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço diablo.</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>O endereço yotokens que foi assinado com</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>O endereço diablo que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -868,14 +868,14 @@
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all yotokens specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da yotokens (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all diablo specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da diablo (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart yotokens Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o yotokens Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart diablo Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o diablo Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

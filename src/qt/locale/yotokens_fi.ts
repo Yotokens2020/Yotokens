@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun yotokens osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your diablo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun diablo osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your yotokens addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun yotokens osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your diablo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun diablo osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,15 +164,15 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>yotokens will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>yotokens sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PIEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>diablo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>diablo sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PIEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR yotokens&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR diablo&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki PIEisi&lt;/b&gt;</translation>
     </message>
     <message>
@@ -227,8 +227,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a yotokens Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä yotokens osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a diablo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä diablo osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -236,8 +236,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>yotokens osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>diablo osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -268,8 +268,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän yotokens osoitteen</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän diablo osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,8 +288,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>yotokens osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>diablo osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -575,16 +575,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Ydin</translation>
+        <source>diablo Core</source>
+        <translation>diablo Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a yotokens address</source>
-        <translation>Lähetä kolikkoja yotokens osoitteeseen</translation>
+        <source>Send coins to a diablo address</source>
+        <translation>Lähetä kolikkoja diablo osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and yotokens: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja yotokens: URIja)</translation>
+        <source>Request payments (generates QR codes and diablo: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja diablo: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -595,24 +595,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About yotokens Core</source>
-        <translation>yotokens Core &amp;ytimestä</translation>
+        <source>&amp;About diablo Core</source>
+        <translation>diablo Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about yotokens Core</source>
-        <translation>Näytä tietoja yotokens Ytimestä</translation>
+        <source>Show information about diablo Core</source>
+        <translation>Näytä tietoja diablo Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for yotokens</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja yotokens:lle</translation>
+        <source>Modify configuration options for diablo</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja diablo:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your yotokens addresses to prove you own them</source>
+        <source>Sign messages with your diablo addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified yotokens addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä yotokens osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified diablo addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä diablo osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a yotokens: URI or payment request</source>
-        <translation>Avaa yotokens: URI tai pyydä maksua</translation>
+        <source>Open a diablo: URI or payment request</source>
+        <translation>Avaa diablo: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the yotokens Core help message to get a list with possible yotokens command-line options</source>
-        <translation>Näytä yotokens Ydin apuviesti saadaksesi lista mahdollisista yotokens komentolinja komennoista.</translation>
+        <source>Show the diablo Core help message to get a list with possible diablo command-line options</source>
+        <translation>Näytä diablo Ydin apuviesti saadaksesi lista mahdollisista diablo komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>yotokens Core client</source>
-        <translation>yotokens Ydin asiakasohjelma</translation>
+        <source>diablo Core client</source>
+        <translation>diablo Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -894,8 +894,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Ydin</translation>
+        <source>diablo Core</source>
+        <translation>diablo Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -913,12 +913,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to yotokens Core.</source>
-        <translation>Tervetuloa yotokens Ytimeen.</translation>
+        <source>Welcome to diablo Core.</source>
+        <translation>Tervetuloa diablo Ytimeen.</translation>
     </message>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Ydin</translation>
+        <source>diablo Core</source>
+        <translation>diablo Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1091,32 +1091,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 yotokens</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 yotokens</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 diablo</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 diablo</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 yotokens</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 yotokens</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 diablo</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 diablo</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 yotokens to anonymize 10000 yotokens</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PIE anonymoidaksesi 10000 yotokens</translation>
+        <source>This option is the quickest and will cost about ~0.025 diablo to anonymize 10000 diablo</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PIE anonymoidaksesi 10000 diablo</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 yotokens to anonymize 10000 yotokens</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 yotokens anonymoidaksesi 10000 yotokens</translation>
+        <source>This option is moderately fast and will cost about 0.05 diablo to anonymize 10000 diablo</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 diablo anonymoidaksesi 10000 diablo</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 yotokens per 10000 yotokens you anonymize.</source>
-        <translation>0.1 per 10000 yotokens, jotka anonymisoit.</translation>
+        <source>0.1 diablo per 10000 diablo you anonymize.</source>
+        <translation>0.1 per 10000 diablo, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start yotokens after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä yotokens kun kirjaudut sisään.</translation>
+        <source>Automatically start diablo after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä diablo kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start yotokens on system login</source>
-        <translation>&amp;Aloita yotokens järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start diablo on system login</source>
+        <translation>&amp;Aloita diablo järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the yotokens RPC console.</source>
-        <translation>Tervetuloa yotokens RPC konsoliin.</translation>
+        <source>Welcome to the diablo RPC console.</source>
+        <translation>Tervetuloa diablo RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1503,8 +1503,8 @@ Please check the address and try again.</source>
         <translation>ei</translation>
     </message>
     <message>
-        <source>0 yotokens</source>
-        <translation>0 yotokens</translation>
+        <source>0 diablo</source>
+        <translation>0 diablo</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1608,8 +1608,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The yotokens address to sign the message with</source>
-        <translation>yotokens osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The diablo address to sign the message with</source>
+        <translation>diablo osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1632,12 +1632,12 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this yotokens address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän yotokens osoitteen</translation>
+        <source>Sign the message to prove you own this diablo address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän diablo osoitteen</translation>
     </message>
     <message>
-        <source>The yotokens address the message was signed with</source>
-        <translation>yotokens osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The diablo address the message was signed with</source>
+        <translation>diablo osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1675,8 +1675,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>yotokens Core</source>
-        <translation>yotokens Ydin</translation>
+        <source>diablo Core</source>
+        <translation>diablo Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>yotokens-core</name>
+    <name>diablo-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

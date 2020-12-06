@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The yotokens developers
+// Copyright (c) 2015-2017 The diablo developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,7 +19,7 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(yotokens);
+    unitlist.append(diablo);
     unitlist.append(mPIE);
     unitlist.append(uPIE);
     return unitlist;
@@ -28,7 +28,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case yotokens:
+    case diablo:
     case mPIE:
     case uPIE:
         return true;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case yotokens:
-        return QString("yotokens");
+    case diablo:
+        return QString("diablo");
     case mPIE:
-        return QString("myotokens");
+        return QString("mdiablo");
     case uPIE:
-        return QString::fromUtf8("uyotokens");
+        return QString::fromUtf8("udiablo");
     default:
         return QString("???");
     }
@@ -55,8 +55,8 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case yotokens:
-            return QString("yotokens");
+        case diablo:
+            return QString("diablo");
         case mPIE:
             return QString("mPIE");
         case uPIE:
@@ -66,7 +66,7 @@ QString BitcoinUnits::name(int unit)
         }
     } else {
         switch (unit) {
-        case yotokens:
+        case diablo:
             return QString("tPIE");
         case mPIE:
             return QString("mtPIE");
@@ -82,18 +82,18 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case yotokens:
-            return QString("yotokens");
+        case diablo:
+            return QString("diablo");
         case mPIE:
-            return QString("Milli-yotokens (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-diablo (1 / 1" THIN_SP_UTF8 "000)");
         case uPIE:
-            return QString("Micro-yotokens (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-diablo (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case yotokens:
+        case diablo:
             return QString("TestPIEs");
         case mPIE:
             return QString("Milli-TestPIE (1 / 1" THIN_SP_UTF8 "000)");
@@ -108,7 +108,7 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case yotokens:
+    case diablo:
         return 100000000;
     case mPIE:
         return 100000;
@@ -122,7 +122,7 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case yotokens:
+    case diablo:
         return 8;
     case mPIE:
         return 5;

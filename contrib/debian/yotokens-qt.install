@@ -1,6 +1,6 @@
-usr/local/bin/yotokens-qt usr/bin
+usr/local/bin/diablo-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/yotokens-qt.desktop usr/share/applications
-debian/yotokens-qt.protocol usr/share/kde4/services/
+debian/diablo-qt.desktop usr/share/applications
+debian/diablo-qt.protocol usr/share/kde4/services/

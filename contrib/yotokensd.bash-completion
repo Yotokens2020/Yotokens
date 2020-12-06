@@ -1,12 +1,12 @@
-# bash programmable completion for yotokensd(1) and yotokens-cli(1)
+# bash programmable completion for diablod(1) and diablo-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have yotokensd && {
+have diablod && {
 
-# call $yotokensd for RPC
-_yotokens_rpc() {
+# call $diablod for RPC
+_diablo_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _yotokens_rpc() {
                 ;;
         esac
     done
-    $yotokensd "${rpcargs[@]}" "$@"
+    $diablod "${rpcargs[@]}" "$@"
 }
 
-# Add yotokens accounts to COMPREPLY
-_yotokens_accounts() {
+# Add diablo accounts to COMPREPLY
+_diablo_accounts() {
     local accounts
-    accounts=$(_yotokens_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_diablo_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_yotokensd() {
+_diablod() {
     local cur prev words=() cword
-    local yotokensd
+    local diablod
 
-    # save and use original argument to invoke yotokensd
-    # yotokensd might not be in $PATH
-    yotokensd="$1"
+    # save and use original argument to invoke diablod
+    # diablod might not be in $PATH
+    diablod="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _yotokensd() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _yotokens_accounts
+                _diablo_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _yotokensd() {
                 return 0
                 ;;
             move|setaccount)
-                _yotokens_accounts
+                _diablo_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _yotokensd() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _yotokens_accounts
+            _diablo_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _yotokensd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($yotokensd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($diablod --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_yotokens_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_diablo_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _yotokensd() {
     esac
 }
 
-complete -F _yotokensd yotokensd yotokens-cli
+complete -F _diablod diablod diablo-cli
 }
 
 # Local variables:

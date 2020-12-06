@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += yotokensd
+  bin_PROGRAMS += diablod
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += yotokens-cli yotokens-tx
+  bin_PROGRAMS += diablo-cli diablo-tx
 endif
 
 .PHONY: FORCE
-# yotokens core #
+# diablo core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between yotokensd and yotokens-qt
+# server: shared between diablod and diablo-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between yotokensd and yotokens-qt, but only linked
+# wallet: shared between diablod and diablo-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between yotokensd, and yotokens-qt and non-server tools
+# common: shared between diablod, and diablo-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between yotokens-cli and yotokens-qt
+# cli: shared between diablo-cli and diablo-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-yotokensd_LDADD = \
+diablod_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ yotokensd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-yotokensd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+diablod_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-yotokensd_LDADD += libbitcoin_wallet.a
+diablod_LDADD += libbitcoin_wallet.a
 endif
-yotokensd_SOURCES = yotokensd.cpp
+diablod_SOURCES = diablod.cpp
 #
 
 if TARGET_WINDOWS
-yotokensd_SOURCES += yotokensd-res.rc
+diablod_SOURCES += diablod-res.rc
 endif
 
-yotokensd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-yotokensd_CPPFLAGS = $(BITCOIN_INCLUDES)
-yotokensd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+diablod_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+diablod_CPPFLAGS = $(BITCOIN_INCLUDES)
+diablod_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# yotokens-cli binary #
-yotokens_cli_LDADD = \
+# diablo-cli binary #
+diablo_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-yotokens_cli_SOURCES = \
-  yotokens-cli.cpp
+diablo_cli_SOURCES = \
+  diablo-cli.cpp
 
-yotokens_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+diablo_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# yotokens-tx binary #
-yotokens_tx_LDADD = \
+# diablo-tx binary #
+diablo_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ yotokens_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-yotokens_tx_SOURCES = yotokens-tx.cpp
-yotokens_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+diablo_tx_SOURCES = diablo-tx.cpp
+diablo_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-yotokens_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+diablo_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-yotokens_cli_SOURCES += yotokens-cli-res.rc
+diablo_cli_SOURCES += diablo-cli-res.rc
 endif
-yotokens_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+diablo_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

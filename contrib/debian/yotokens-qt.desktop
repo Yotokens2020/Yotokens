@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=yotokens
-Comment=yotokens P2P Cryptocurrency
-Comment[fr]=yotokens, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=yotokens, eşten eşe kriptografik sanal para birimi
-Exec=yotokens-qt %u
+Name=diablo
+Comment=diablo P2P Cryptocurrency
+Comment[fr]=diablo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=diablo, eşten eşe kriptografik sanal para birimi
+Exec=diablo-qt %u
 Terminal=false
 Type=Application
-Icon=yotokens128
-MimeType=x-scheme-handler/yotokens;
+Icon=diablo128
+MimeType=x-scheme-handler/diablo;
 Categories=Office;Finance;

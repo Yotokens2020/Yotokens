@@ -37,12 +37,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_yotokens">res/icons/unit_yotokens.png</file>
-        <file alias="unit_myotokens">res/icons/unit_myotokens.png</file>
-        <file alias="unit_uyotokens">res/icons/unit_uyotokens.png</file>
-        <file alias="unit_tyotokens">res/icons/unit_tyotokens.png</file>
-        <file alias="unit_tmyotokens">res/icons/unit_tmyotokens.png</file>
-        <file alias="unit_tuyotokens">res/icons/unit_tuyotokens.png</file>
+        <file alias="unit_diablo">res/icons/unit_diablo.png</file>
+        <file alias="unit_mdiablo">res/icons/unit_mdiablo.png</file>
+        <file alias="unit_udiablo">res/icons/unit_udiablo.png</file>
+        <file alias="unit_tdiablo">res/icons/unit_tdiablo.png</file>
+        <file alias="unit_tmdiablo">res/icons/unit_tmdiablo.png</file>
+        <file alias="unit_tudiablo">res/icons/unit_tudiablo.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -58,7 +58,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="yotokens_logo_horizontal">res/images/yotokens_logo_horizontal.png</file>
+        <file alias="diablo_logo_horizontal">res/images/diablo_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

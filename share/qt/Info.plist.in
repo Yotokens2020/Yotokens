@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The yotokens Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The diablo Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>yotokens-Qt</string>
+  <string>diablo-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.yotokens.yotokens-Qt</string>
+  <string>io.diablo.diablo-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.yotokens.yotokensPayment</string>
+      <string>io.diablo.diabloPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>yotokens</string>
+        <string>diablo</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.yotokens.paymentrequest</string>
+      <string>io.diablo.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>yotokens payment request</string>
+      <string>diablo payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-yotokens-payment-request</string>
+        <string>application/x-diablo-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>yotokenspaymentrequest</string>
+          <string>diablopaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.yotokens.paymentrequest</string>
+        <string>io.diablo.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>
